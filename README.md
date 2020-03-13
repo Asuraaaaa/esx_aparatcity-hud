@@ -3,7 +3,7 @@
  My Discord : https://discord.gg/3BUbc8e
 
 
-https://cdn.discordapp.com/attachments/638690604598951936/685694594536439854/unknown.png
+
 
 
 -----------------------------
