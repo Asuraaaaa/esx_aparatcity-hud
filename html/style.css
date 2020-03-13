@@ -1,0 +1,211 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+* {padding: 0; margin: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+
+.playerStats{
+
+
+
+/*
+
+-- Aparat City Hud |Develop By IRaniGamerR
+-- My Discord : https://discord.gg/3BUbc8e
+
+*/
+
+
+
+
+
+
+	position: absolute;
+	right: 50px;
+	left: -50px; /* Default: 350px */
+	bottom: 5px; /* Default: 20px */
+	bottom: 5px; /* Default: 20px */
+
+	left:1.0%; /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+	left: -18.0%; /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+	/*bottom:1.85%; /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+}
+
+.carStats{
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+.hud{
+
+border: solid 1px black;
+position: absolute;
+background: rgba(24, 27, 32, 0.3);
+box-sizing: border-box;
+box-shadow: 1px 1px 2px #000000;
+width: 260px;
+height: 150px;
+bottom:0.01%;
+right: 8px;
+margin: 20px;
+border-radius: 20px;
+
+}
+.hud .hour {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    width: 170px;
+    right: 0;
+    top: -15px; }.servername{
+	color: #fff;
+	margin-top: 10px;
+	text-align:center ;
+	font-size: 25px;
+	text-shadow: 2px 2px 4px #000000;
+	
+}
+
+.stat{
+
+	color: #fff;
+	padding-left: 25px;
+	padding-top: 5px;
+	width: 250px;
+	height: 30px;
+	position: relative;
+	margin-bottom: 15px;
+	
+}
+
+.stat .icon{
+	height: 30px;
+	width: 30px;
+	position: relative;
+	display: inline-block;
+	right: 22px;
+}
+
+.stat .icon i, .stat .icon img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.stat .icon img{
+	height: 30px;
+	width: 30px;
+}
+
+
+.stat span{
+	position: absolute;
+	font-size: large;
+	top: 22px;
+	left: 35px;
+	transform: translateY(-50%);
+	text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+.carStats .stat{
+	background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	text-align: right;
+}
+
+.carStats .stat .icon{
+	float: right;
+	right: 0px;
+	left: 15px;
+}
+
+.carStats .stat span{
+	white-space: nowrap;
+	right: 20px;
+}
+
+.status{
+	display: inline-block;
+	width: 300px;
+	position: sticky;
+	left: 500px;
+	justify-content: space-between;
+}
+
+.veh-gas{
+	display: flex;
+	width: 235px;
+	position: relative;
+	
+	justify-content: space-between;
+}
+
+
+.vert-stat{
+	
+	left: 12px;
+	top: 12px;
+	border-radius: 10px;
+	margin-left: 1px;
+	margin-top: -10px;
+	width:40px;
+	height: 40px;
+
+	display: inline-block;
+
+	position: relative;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+#hour {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    width: 170px;
+    right: 0;
+	top: -15px; }
+	
+.vert-stat .bg{
+	height: 100%;
+	width: 100%;
+	
+	position: absolute;
+	bottom: 0;
+}
+
+.vert-stat img{
+	width: 80%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	
+	transform: translate(-50%, -50%);
+}
+
+
+#gas{
+	position: absolute;
+	right: 100px;
+	bottom: 50px;
+
+}
+
+#hour {
+	font-size: 0.625vw;
+  }
+  
